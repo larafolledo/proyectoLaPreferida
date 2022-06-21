@@ -1,0 +1,21 @@
+.contenedorConfiteria {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 2rem;
+}
+.listaConfiteria {
+	font-family: 'Source Sans Pro', sans-serif;
+	list-style-type: none;
+	padding: 2%;
+	background-color: $colorRosita1;
+	a {
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+		&:hover {
+			background-color: $colorHover;
+			color: white;
+		}
+	}
+}

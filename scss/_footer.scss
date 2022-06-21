@@ -1,0 +1,37 @@
+footer {
+	background-color: $colorRojo;
+    margin-top: 2%;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+}
+.encontranosFooter {
+	h4 {
+		font-family: 'Source Sans Pro', sans-serif;
+		width: 50%;
+		margin: 1rem;
+		color: white;
+		font-size: 1rem;
+		font-weight: bold;
+	}
+}
+.contactoFooter {
+	h4 {
+		font-family: 'Source Sans Pro', sans-serif;
+		width: 50%;
+		margin: 1rem;
+		color: white;
+		font-size: 1rem;
+		font-weight: bold;
+	}
+	a {
+		font-family: 'Source Sans Pro', sans-serif;
+		width: 50%;
+		margin: 1rem;
+		font-weight: bold;
+		text-decoration: none;
+		color: rgb(253, 253, 253);
+		background-color: $colorBordo;
+	}
+}

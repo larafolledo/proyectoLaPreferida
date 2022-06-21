@@ -1,0 +1,21 @@
+.parrafoNosotros {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+	line-height: 1.5rem;
+	letter-spacing: 0.1rem;
+}
+.imgNosotros {
+	margin-bottom: 2rem;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.accordion {
+	.accordion-item {
+		background-color: $colorRosita1;
+	}
+}

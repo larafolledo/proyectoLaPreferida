@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Source+Sans+Pro:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- animatedCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../mult/favicon-32x32.png" type="panadero-icon">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>La Preferida🥐</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-lg">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img class="img-fluid" class="header__img"
+                        src="../img/LAPREFERIDALOGO.png" alt="logo" height="100px" width="100px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link header__listaLetra colorHeader" href="../index.html">Home</a>
+                        <a class="nav-link header__listaLetra colorHeader" href="../pages/panaderia.html">Panadería</a>
+                        <a class="nav-link header__listaLetra colorHeader"
+                            href="../pages/confiteria.html">Confitería</a>
+                        <a class="nav-link header__listaLetra colorHeader" href="../pages/servicios.html">Servicios</a>
+                        <a class="nav-link active header__listaLetra colorHeader" aria-current="page"
+                            href="../pages/contacto.html">Contacto</a>
+                        <link rel="stylesheet" href="nicepage.css" media="screen">
+                        <link rel="stylesheet" href="Página-1.css" media="screen">
+                        <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+                        <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+                        <meta name="generator" content="Nicepage 3.23.2, nicepage.com">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="cajaimg1">
+            <img src="../img/foto portada.jpg" alt="panes" width="100%">
+        </div>
+        <!-- formulario 1 -->
+        <section>
+            <h3 class="wow animate__animated animate__fadeInLeft centrarTitulo">Trabajá con nosotros</h3>
+            <fieldset class="formularioUno">
+                <form action="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div>
+                                    <label for="nombreCompleto">nombre y apellido</label>
+                                    <input id="nombreCompleto" type="text" name="nombre y apellido"
+                                        placeholder="Juan Rodriguez">
+                                </div><br>
+                                <div>
+                                    <label for="email">email</label>
+                                    <input id="email" type="email" name="email" required
+                                        placeholder="juanrodriguez@hotmail.com">
+                                </div><br>
+                                <div>
+                                    <label for="number">telefono</label>
+                                    <input id="number" type="number" name="number" required placeholder="1566666666">
+                                </div><br>
+                                <div>
+                                    <label for="comentarios">¿por qué quieres trabajar aqui?</label><br>
+                                    <textarea name="comentarios" id="¿por qué quieres trabajar aquí?" cols="30"
+                                        rows="10"></textarea>
+                                </div><br>
+                                <div class="botonEnviar">
+                                    <input type="submit" value="Enviar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+        <!-- formulario 2 -->
+        <section>
+            <h3 class="wow animate__animated animate__fadeInLeft centrarTitulo">Consultanos sobre nuestros servicios</h3>
+            <fieldset class="formularioDos">
+                <form action="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div>
+                                    <label for="nombreCompleto">nombre y apellido</label>
+                                    <input id="nombreCompleto" type="text" name="nombre y apellido"
+                                        placeholder="Juan Rodriguez">
+                                </div><br>
+                                <div>
+                                    <label for="email">email</label>
+                                    <input id="email" type="email" name="email" required
+                                        placeholder="juanrodriguez@hotmail.com">
+                                </div><br>
+                                <div>
+                                    <label for="number">telefono</label>
+                                    <input id="number" type="number" name="number" required placeholder="1566666666">
+                                </div><br>
+                                <div>
+                                    <label for="comentarios">¿qué información te gustaría recibir?</label><br>
+                                    <textarea name="comentarios" id="¿qué información te gustaría recibir?" cols="30"
+                                        rows="10"></textarea>
+                                </div><br>
+                                <div class="botonEnviar">
+                                    <input type="submit" value="Enviar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        <div class="encontranosFooter">
+            <h4>encontranos en: Maipu 800 - Banfield</h4>
+        </div>
+        <div class="contactoFooter">
+            <h4>Trabajá con nosotros</h4>
+            <a href="../pages/contacto.html">contacto</a>
+        </div>
+        <div class="instagramFooter">
+            <a href="https://www.instagram.com/lapreferida_panaderia/"><img src="../img/instagram logo.png"
+                    alt="instagram"></a>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- js de wow  -->
+    <script src="/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
